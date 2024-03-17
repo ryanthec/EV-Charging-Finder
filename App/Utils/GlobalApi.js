@@ -4,7 +4,7 @@ import axios from 'axios'
 
 //Base url for the api call and api key
 const BASE_URL = "https://places.googleapis.com/v1/places:searchNearby";
-const API_KEY = "AIzaSyDl3RcpKcTdcnDSSXUhrUbZiRB4rj7pMJ8";
+const API_KEY = "INSERT YOUR OWN API KEY HERE";
 
 //config for google places api
 //field mask is so the places api only shows certain info
