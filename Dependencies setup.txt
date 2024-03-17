@@ -1,0 +1,68 @@
+Dependencies setup
+
+1. npx create-expo-app my-app
+- Create the app with expo
+
+2. npx expo install expo-status-bar
+- Install expo status bar
+
+3. npx expo install expo-font
+- Install expo fonts
+
+4. npx expo install expo-splash-screen
+- Install expo splash screen
+
+5. npm install @clerk/clerk-expo
+- Install clerk for authentication
+
+6. npx expo install expo-web-browser
+- Install expo web browser for the google authentication
+
+7. npm install expo-secure-store
+- Install expo secure store for token caching so user wont need to relogin every time the app restarts
+
+8. npm install @react-navigation/native
+- Install navigation for react native
+
+
+9. npx expo install react-native-screens react-native-safe-area-context
+- Together with react-navigation, also install this as we are using expo
+
+
+10. npm install @react-navigation/bottom-tabs
+- Install navigation bar(bottom tab type) for react native
+- Note there are many diff types of navigation bar check react navigation docs to see more
+
+11. npx expo install react-native-maps
+- For the react native map
+
+
+12. npx expo install expo-location
+- Install location to see user location
+
+
+13. npm install react-native-google-places-autocomplete --save
+- Install search bar autocomplete for google maps
+
+
+14. npm i axios
+- Install axios for api fetching
+
+15. npx expo install expo-linear-gradient
+- Install linear gradient(for style)
+
+
+16. npm install firebase
+- Install firebase
+
+
+
+
+
+
+
+
+
+
+
+
