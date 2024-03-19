@@ -10,7 +10,7 @@ const API_KEY = "INSERT YOUR OWN API KEY HERE";
 //field mask is so the places api only shows certain info
 const config = {
     headers:{
-        'Content-ype':'application/json',
+        'Content-type':'application/json',
         'X-Goog-Api-Key': API_KEY,
         'X-Goog-FieldMask': ['places.displayName',
                             'places.formattedAddress',
